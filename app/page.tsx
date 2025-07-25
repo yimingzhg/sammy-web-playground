@@ -17,7 +17,7 @@ export default function Home() {
     const roomId = generateRoomId();
     router.push(`/room/${encodeURIComponent(roomId)}`);
   }, [router]);
-
+  //test
   return (
     <div className="min-h-screen bg-slate-50 flex items-center justify-center">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
